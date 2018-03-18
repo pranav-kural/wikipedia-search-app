@@ -1,8 +1,8 @@
-# ionic-wuaxml
+# WikiSearch
+
+An Ionic app to search through Wikipedia utilizing MediaWiki action API and built on top on Angular 2. Please feel free to edit, fork or play around with the code. Happy Coding!
 
 [Edit this project on StackBlitz](https://stackblitz.com/edit/ionic-wuaxml)
-
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
 ## How to use this template with the Ionic CLI:
 
