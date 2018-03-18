@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>Wiki Search</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <ion-item>
+      <ion-input type="text" placeholder="What are you searching for?" (input)="searchWiki($event)" clearInput></ion-input>
+  </ion-item>
+
+  <results-list [searchResults]="searchResults"></results-list>
+
+</ion-content>

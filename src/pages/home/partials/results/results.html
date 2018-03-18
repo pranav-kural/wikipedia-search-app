@@ -1,0 +1,23 @@
+<div *ngIf="results != null; else noResults">
+
+  <ion-card *ngFor="let result of results">
+  <ion-card-header>
+    {{ result.title }}
+  </ion-card-header>
+  <ion-card-content>
+    {{ result.extract}}
+  </ion-card-content>
+  <a href="https://en.wikipedia.org/?curid={{ result.pageid }}" target="_blank" ion-button clear item-end>View</a>
+</ion-card>
+
+</div>
+
+<ng-template #noResults>
+  <ion-footer>
+  <ion-card>
+  <ion-card-header text-center>
+    Built with 💕 by - P R Ʌ N Ʌ V • K U R Ʌ L
+  </ion-card-header>
+</ion-card>
+</ion-footer>
+</ng-template>
