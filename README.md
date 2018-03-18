@@ -1,6 +1,6 @@
 # WikiSearch
 
-An **Ionic** app to search through Wikipedia utilizing **MediaWiki action API** and built on top on **Angular**. Please feel free to edit, fork or play around with the code. *Happy Coding!*
+An **Ionic** app to do **instant search** through Wikipedia utilizing **MediaWiki action API** and built on top on **Angular**. Please feel free to edit, fork or play around with the code. *Happy Coding!*
 
 API Reference: [MediaWiki action API](https://www.mediawiki.org/wiki/API:Main_page)
 
